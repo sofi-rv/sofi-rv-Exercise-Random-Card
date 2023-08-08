@@ -24,9 +24,16 @@ window.onload = function() {
   //creamos un nuevo div para la carta
   let newDiv = document.createElement("DIV");
   let app = document.querySelector("#app");
-  newDiv.classList.add("container", "bg", "bg-light");
-  newDiv.innerHTML = `<div class="row symbol heading">Fila 1<div/><div class="row number">Fila 2<div/><div class="row symbol reverse">Fila 3<div/>`;
-
+  newDiv.classList.add(
+    "container",
+    "bg",
+    "bg-light",
+    "rounded",
+    "mx-5",
+    "shadow"
+  );
+  newDiv.innerHTML =
+    '<div class="row symbol heading display-5 mt-5">Fila 1</div><br/><br/><br/><div class="row number display-5">Fila 2</div><br/><br/><br/><div class="row symbol reverse display-5">Fila 3</div>';
   app.appendChild(newDiv);
 
   //Elegir número aleatorio

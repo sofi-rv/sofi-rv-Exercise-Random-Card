@@ -3,3 +3,14 @@
 .reverse {
   transform: rotate(180deg);
 }
+.number {
+  font-weight: bold;
+}
+.mycard {
+  width: 200px;
+  height: 300px;
+}
+
+.button {
+  height: 300px;
+}

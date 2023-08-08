@@ -1,5 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .reverse {
   transform: rotate(180deg);
 }
@@ -8,9 +14,7 @@
 }
 .mycard {
   width: 200px;
-  height: 300px;
 }
-
-.button {
-  height: 300px;
+button {
+  margin-top: 50px;
 }
